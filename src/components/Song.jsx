@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { musicPausa } from "../assets/images";
 import { musicPlay } from "../assets/images";
+import { cancion } from "../assets/music";
 
 const Song = () => {
 
@@ -34,7 +35,7 @@ const Song = () => {
                 className="w-[28px] h-[28px] object-contain"
                 onClick={handlePlayPause}  
             />
-            <audio ref={audioRef} src="/cancion.mp3"/>
+            <audio ref={audioRef} src={cancion}/>
         </div>       
     )
 }
