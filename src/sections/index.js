@@ -1,6 +1,6 @@
 import Hero from "./Hero";
 import Padres from "./Padres";
-//import Confirmacion from "./Confirmacion";
+import Confirmacion from "./Confirmacion";
 /*import Contador from "./Contador";
 import DressCode from "./DressCode";
 import Galeria from "./Galeria";
@@ -12,7 +12,8 @@ import Ubicacion from "./Ubicacion";*/
 export{
     Hero,
     Padres,
-    /*Confirmacion,
+    Confirmacion,
+    /*
     Contador,
     DressCode,
     Galeria,
