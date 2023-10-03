@@ -1,12 +1,13 @@
 import {Hero, Padres, Confirmacion, Contador, DressCode, Invitado, Galeria, Hospedaje, Regalos} from "./sections";
 import { useEffect } from "react";
-//import AOS from "aos";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 
 const App = () =>{
-  /*useEffect(() => {
+  useEffect(() => {
     AOS.init({duration:3000});
-  }, []);]*/
+  }, []);
 
   return(
     <main className="relative bg-medium-pink">
