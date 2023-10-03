@@ -1,4 +1,4 @@
-import {Hero, Padres, Confirmacion, Contador, DressCode, Invitado /*Galeria, Hospedaje, Regalos, Ubicacion*/} from "./sections";
+import {Hero, Padres, Confirmacion, Contador, DressCode, Invitado, Galeria, Hospedaje, Regalos} from "./sections";
 import { useEffect } from "react";
 //import AOS from "aos";
 
@@ -14,23 +14,20 @@ const App = () =>{
         <Hero />
       </section>
       <section>
-        <Padres />
-      </section>
-      <section>
-        <Confirmacion />
-      </section>
-      <section>
         <Contador />
       </section>
       <section>
         <Invitado />
-      </section>      
+      </section> 
+      <section>
+        <Padres />
+      </section>
       <section>
         <DressCode />
       </section>
       {/* <section>
         <Ubicacion />
-      </section>
+      </section> */}
       <section>
         <Galeria />
       </section>
@@ -40,7 +37,9 @@ const App = () =>{
       <section>
         <Hospedaje />
       </section>
-      */}
+      <section>
+        <Confirmacion />
+      </section>
     </main> 
   );
 }

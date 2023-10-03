@@ -4,10 +4,10 @@ import Confirmacion from "./Confirmacion";
 import Contador from "./Contador";
 import DressCode from "./DressCode";
 import Invitado from "./Invitado";
-/*import Galeria from "./Galeria";
+import Galeria from "./Galeria";
 import Hospedaje from "./Hospedaje";
 import Regalos from "./Regalos";
-import Ubicacion from "./Ubicacion";*/
+import Ubicacion from "./Ubicacion";
 
 export{
     Hero,
@@ -16,9 +16,8 @@ export{
     Contador,
     DressCode,
     Invitado,
-    /*
     Galeria,
     Hospedaje,
     Regalos,
-    Ubicacion*/
+    Ubicacion
 }
