@@ -8,7 +8,7 @@ const Hero = () =>(
         <div className="flex flex-1 justify-center items-center absolute top-0 w-[90%] border bg-dark-pink">
             <h2 className="font-sofia text-2xl py-3">MIS XV AÑOS</h2>
         </div>
-        <div data-aos="fade-up" className="flex flex-1 justify-center items-center absolute bottom-0 w-[90%] border bg-dark-pink">
+        <div className="flex flex-1 justify-center items-center absolute bottom-0 w-[90%] border bg-dark-pink">
             <h1 className="font-mea text-4xl py-3">Frida Sofia</h1>           
         </div>
     </div>

@@ -6,11 +6,8 @@ const Contador = () =>{
 
   return(
   <div className="bg-medium-pink py-10">
-    {/* Foto + Fecha --- Primera Parte  */}
+    
     <div className="flex flex-col items-center justify-center">
-      <div>
-
-      </div>
       <img 
         src={fotoFecha} 
         alt="quinceañera" 
@@ -25,7 +22,7 @@ const Contador = () =>{
     {/* Contador --- Segunda Parte */}
     <div className="flex flex-col items-center">
       <h3 className="font-sofia text-lg mb-5">SOLO FALTAN</h3>
-      <div className="flex flex-wrap gap-20 justify-center px-20">
+      <div className="flex flex-wrap md:gap-20 gap-10 justify-center px-20">
         
         <Reloj tiempo='20' medida='DÍAS' dataAOS="flip-left"/>
 
