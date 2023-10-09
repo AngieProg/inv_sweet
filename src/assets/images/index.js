@@ -1,5 +1,5 @@
 import galeria1 from "./galeria1.jpg";
-import fotoFecha from "./foto_fecha.jpg";
+import fotoFecha from "./foto_fecha.png";
 import galeria2 from "./galeria2.jpg";
 import galeria3 from "./galeria3.jpg";
 import galeria4 from "./galeria4.jpg";

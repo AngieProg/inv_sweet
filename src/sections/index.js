@@ -8,9 +8,11 @@ import Galeria from "./Galeria";
 import Hospedaje from "./Hospedaje";
 import Regalos from "./Regalos";
 import Ubicacion from "./Ubicacion";
+import HeroSweet from "./HeroSweet";
 
 export{
     Hero,
+    HeroSweet,
     Padres,
     Confirmacion,
     Contador,

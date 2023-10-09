@@ -1,6 +1,6 @@
-//import "aos/dist/aos.css";
 
 const CardInfo = ({icon, titulo1, titulo2, icon2, hora, parrafo, btn1, btn2 }) => (
+
     <div className="flex flex-col justify-center items-center px-8 py-8 mb-5 w-[300px] shadow-3xl">
         <img src={icon} alt={titulo1} className="w-[50px] h-[50px]" data-aos="zoom-out-up"/>
         {titulo1 && <h3 className="font-sofia text-base py-2">{titulo1}</h3>}
@@ -20,6 +20,7 @@ const CardInfo = ({icon, titulo1, titulo2, icon2, hora, parrafo, btn1, btn2 }) =
         {btn2 &&
             <button className='bg-dark-pink p-2 w-[150px]'>{btn2}</button>
         }
+       
     </div>
 )
 

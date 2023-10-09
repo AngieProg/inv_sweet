@@ -1,4 +1,3 @@
-//import "aos/dist/aos.css";
 import {fotoFecha} from "./../assets/images";
 import Reloj from "../components/Reloj";
 
@@ -22,7 +21,7 @@ const Contador = () =>{
     {/* Contador --- Segunda Parte */}
     <div className="flex flex-col items-center">
       <h3 className="font-sofia text-lg mb-5">SOLO FALTAN</h3>
-      <div className="flex flex-wrap md:gap-20 gap-10 justify-center px-20">
+      <div className="flex flex-wrap md:gap-20 gap-10 justify-center px-10">
         
         <Reloj tiempo='20' medida='DÍAS' dataAOS="flip-left"/>
 

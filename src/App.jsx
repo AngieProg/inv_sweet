@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-
 const App = () =>{
   useEffect(() => {
     AOS.init({duration:3000});
@@ -19,7 +18,7 @@ const App = () =>{
       </section>
       <section>
         <Invitado />
-      </section> 
+      </section>  
       <section>
         <Padres />
       </section>

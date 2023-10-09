@@ -47,21 +47,69 @@ export const regalos = [
         icon: sobre,
         titulo2:'Luvia de Sobres',
         parrafo: 'Es la tradición de regalar dinero en efectivo en un sobre a la festejada el día del evento',
+        datosBancarios:[
+            {
+                icon2: cuentaBanco, 
+                label: 'BANCO',
+                input: 'BANCO EJEMPLO'
+            },
+            {
+                icon2: persona, 
+                label: 'TITULAR',
+                input: 'TITULAR EJEMPLO'
+            },
+            {
+                icon2: cuenta, 
+                label: 'NÚMERO DE CUENTA',
+                input: '5498238723459874'
+            },
+        ]
+        
     },
     {
         icon: regalo,
         titulo2:'Amazon',
         parrafo:'Un detalle especial para la quinceañera. Entra al link para ver algunas ideas de regalos.',
-        label: 'VER REGALOS'
+        label: 'VER REGALOS',
+        datosBancarios:[
+            {
+                icon2: cuentaBanco, 
+                label: 'BANCO',
+                input: 'BANCO EJEMPLO'
+            },
+            {
+                icon2: persona, 
+                label: 'TITULAR',
+                input: 'TITULAR EJEMPLO'
+            },
+            {
+                icon2: cuenta, 
+                label: 'NÚMERO DE CUENTA',
+                input: '5498238723459874'
+            },
+        ]
+        
     },
     {
         icon: banco,
         titulo2:'Datos Bancarios',
         parrafo: 'Si lo deseas, puedes realizar una transferencia a nuestra cuenta para dar un regalo a la quinceañera',
         datosBancarios:[
-            {icon: cuentaBanco, nombre: 'BANCO EJEMPLO'},
-            {icon: persona, nombre: 'TITULAR EJEMPLO'},
-            {icon: cuenta, nombre: '5498238723459874'},
+            {
+                icon2: cuentaBanco, 
+                label: 'BANCO',
+                input: 'BANCO EJEMPLO'
+            },
+            {
+                icon2: persona, 
+                label: 'TITULAR',
+                input: 'TITULAR EJEMPLO'
+            },
+            {
+                icon2: cuenta, 
+                label: 'NÚMERO DE CUENTA',
+                input: '5498238723459874'
+            },
         ]
 
     }
@@ -91,9 +139,21 @@ export const confirmaciones = [
 ];
 
 export const datosInvitado = [    
-            {icon2: persona, label:'PASES', input: '4'},
-            {icon2: reloj, label:'MESA', input: '8'},
-            {icon2: cuenta, label:'ASIENTO', input: '3-5'},
+    {
+        icon2: persona, 
+        label:'PASES', 
+        input: '4'
+    },
+    {
+        icon2: reloj, 
+        label:'MESA', 
+        input: '8'
+    },
+    {
+        icon2: cuenta, 
+        label:'ASIENTO', 
+        input: '3-5'
+    },
         
 ];
 
