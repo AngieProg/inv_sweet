@@ -37,7 +37,7 @@ export default {
         '3xl': '10px 10px 10px 10px rgba(0, 0, 0, 0.3)'
       },
       backgroundImage: {
-        'hero': "url('assets/images/foto-bg.jpg')",
+        'hero': "url('assets/images/bg-sweet.jpg')",
         'hero2': "url('assets/images/foto_fecha.jpg')",
       },
       screens: {

@@ -10,6 +10,9 @@ import padres from "./padres.jpg";
 import salon from "./salon.jpg";
 import musicPlay from "./music_play.png";
 import musicPausa from "./musica_pausa.png";
+import fotoBg from "./foto-bg.jpg";
+import bgSweet from "./bg-sweet.jpg";
+import girlBg from "./girlBg.jpg";
 
 export {
     galeria1,
@@ -24,4 +27,7 @@ export {
     salon,
     musicPausa,
     musicPlay,
+    fotoBg,
+    bgSweet,
+    girlBg
 }
