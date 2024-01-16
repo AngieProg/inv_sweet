@@ -9,10 +9,8 @@ import Hospedaje from "./Hospedaje";
 import Regalos from "./Regalos";
 import Ubicacion from "./Ubicacion";
 import HeroSweet from "./HeroSweet";
-import Pureba from "./Pureba";
 import Carousel from "./Carousel";
 import MessageParallax from "./MessageParallax";
-import Message from "../components/Message";
 
 export {
   Hero,
@@ -26,8 +24,6 @@ export {
   Hospedaje,
   Regalos,
   Ubicacion,
-  Pureba,
   Carousel,
   MessageParallax,
-  Message,
 };

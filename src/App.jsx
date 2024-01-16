@@ -10,7 +10,6 @@ import {
   Ubicacion,
   Carousel,
   MessageParallax,
-  Message,
 } from "./sections";
 import { data } from "./constants/constants";
 import { useEffect } from "react";
