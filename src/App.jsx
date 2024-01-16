@@ -1,24 +1,41 @@
-import {Hero, Padres, Confirmacion, Contador, DressCode, Invitado, Galeria, Hospedaje, Regalos, Ubicacion} from "./sections";
+import {
+  Hero,
+  Padres,
+  Confirmacion,
+  Contador,
+  DressCode,
+  Invitado,
+  Hospedaje,
+  Regalos,
+  Ubicacion,
+  Carousel,
+  MessageParallax,
+  Message,
+} from "./sections";
+import { data } from "./constants/constants";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-const App = () =>{
+const App = () => {
   useEffect(() => {
-    AOS.init({duration:3000});
+    AOS.init({ duration: 3000 });
   }, []);
 
-  return(
+  return (
     <main className="relative bg-medium-pink">
-      <section >
+      <section>
         <Hero />
+      </section>
+      <section>
+        <MessageParallax />
       </section>
       <section>
         <Contador />
       </section>
       <section>
         <Invitado />
-      </section>  
+      </section>
       <section>
         <Padres />
       </section>
@@ -27,9 +44,9 @@ const App = () =>{
       </section>
       <section>
         <Ubicacion />
-      </section> 
+      </section>
       <section>
-        <Galeria />
+        <Carousel data={data} />
       </section>
       <section>
         <Regalos />
@@ -40,8 +57,8 @@ const App = () =>{
       <section>
         <Confirmacion />
       </section>
-    </main> 
+    </main>
   );
-}
+};
 
-export default App
+export default App;
