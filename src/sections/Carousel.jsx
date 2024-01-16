@@ -1,4 +1,4 @@
-// import { data } from "../constants/constants";
+//import { data } from "../constants/constants";
 import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
 import { useState } from "react";
 
@@ -46,7 +46,7 @@ const Carousel = ({ data }) => {
                 className={
                   slide === idx
                     ? "bg-white w-[8px] h-[8px] rounded-full border-none outline-none mx-2 cursor-pointer"
-                    : "bg-white w-[8px] h-[8px] rounded-full border-none outline-none mx-2 cursor-pointer bg-black"
+                    : "w-[8px] h-[8px] rounded-full border-none outline-none mx-2 cursor-pointer bg-black"
                 }
               ></button>
             );
